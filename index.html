@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>ToDo-List App</title>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body>
+        <div id="upper-background"></div>
+        <div id="lower-background"></div>
+        <div id="app-container">
+            <div id="heading">
+                <div>TODO</div>
+                <div id="theme"><img src="images/icon-sun.svg"></div>
+            </div>
+            <div class="indivisual-todo">
+                <div class="checkbox" id="add-field"><div class="tick-0"><img src="images/icon-check.svg"></div></div>
+                <input type="text" placeholder="Create a new todo..." id="create-todo">
+            </div>
+            <div id="todos-container" class="todos-container2">
+                
+            </div>
+
+            <div id="todo-info">
+                <div id="items-left">
+                    <div><span id="no-of-items">0</span> items</div>
+                </div>
+                <div id="filters">
+                    <div class="blue-hover" id="all">All</div>
+                    <div class="blue-hover" id="active">Active</div>
+                    <div class="blue-hover" id="completed">Completed</div>
+                </div>
+                <div id="clear" class="blue-hover">Clear Completed</div>
+            </div>
+        </div>
+        <script type="text/javascript" src="./index.js"></script>
+    </body>
+</html>
